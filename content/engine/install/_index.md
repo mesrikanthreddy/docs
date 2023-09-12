@@ -1,8 +1,8 @@
 ---
-title: Install Docker Engine
-description: Choose the best method for you to install Docker Engine. This client-server
+Title: Install Docker Engine
+Description: Choose the best method for you to install Docker Engine. This client-server
   application is available on Linux, Mac, Windows, and as a static binary.
-keywords: install engine, docker engine install, install docker engine, docker engine
+keywords: install engine, docker engine install, install docker engine, docker-engine
   installation, engine install, docker ce installation, docker ce install, engine
   installer, installing docker engine, docker server install
 aliases:
@@ -25,7 +25,7 @@ aliases:
 - /engine/installation/linux/frugalware/
 - /engine/installation/linux/gentoolinux/
 - /engine/installation/linux/oracle/
-- /engine/installation/linux/other/
+- /engine/installation/Linux/other/
 - /engine/installation/oracle/
 - /enterprise/supported-platforms/
 - /install/linux/docker-ee/oracle/
@@ -45,7 +45,7 @@ aliases:
 
 Docker Engine is available on a variety of [Linux distros](../../desktop/install/linux-install.md),
 [macOS](../../desktop/install/mac-install.md), and [Windows 10](../../desktop/install/windows-install.md)
-through Docker Desktop, and as a [static binary installation](binaries.md). Find
+through Docker Desktop and as a [static binary installation](binaries.md). I've included
 your preferred operating system below.
 
 ### Desktop
@@ -78,14 +78,14 @@ and architectures:
 > **Note**
 >
 > While the instructions below may work, Docker doesn't test or verify
-> installation on distro derivatives.
+> Installation on distro derivatives.
 
-- Users of Debian derivatives such as "BunsenLabs Linux", "Kali Linux" or 
+- Users of Debian derivatives such as "BunsenLabs Linux," "Kali Linux" or 
   "LMDE" (Debian-based Mint) should follow the installation instructions for
   [Debian](debian.md), substituting the version of their distro for the
   corresponding Debian release. Refer to the documentation of your distro to find
   which Debian release corresponds with your derivative version.
-- Likewise, users of Ubuntu derivatives such as "Kubuntu", "Lubuntu" or "Xubuntu"
+- Likewise, users of Ubuntu derivatives such as "Kubuntu," "Lubuntu" or "Xubuntu"
   should follow the installation instructions for [Ubuntu](ubuntu.md),
   substituting the version of their distro for the corresponding Ubuntu release.
   Refer to the documentation of your distro to find which Ubuntu release
@@ -93,19 +93,19 @@ and architectures:
 - Some Linux distros provide a package of Docker Engine through their
   package repositories. These packages are built and maintained by the Linux
   distro's package maintainers and may have differences in configuration
-  or built from modified source code. Docker isn't involved in releasing these
-  packages and you should report any bugs or issues involving these packages to
+  or are built from modified source code. Docker isn't involved in releasing these
+  packages, and you should report any bugs or issues involving these packages to
   your Linux distro's issue tracker.
 
 Docker provides [binaries](binaries.md) for manual installation of Docker Engine.
-These binaries are statically linked and you can use them on any Linux distro.
+These binaries are statically linked, and you can use them on any Linux distro.
 
 ## Release channels
 
 Docker Engine has two types of update channels, **stable** and **test**:
 
 * The **Stable** channel gives you the latest versions released for general availability.
-* The **Test** channel gives you pre-release versions that are ready for testing before
+* The **Test** channel gives you pre-release versions ready for testing before
   general availability.
 
 Use the test channel with caution. Pre-release versions include experimental and
@@ -113,17 +113,17 @@ early-access features that are subject to breaking changes.
 
 ## Support
 
-Docker Engine is an open source project, supported by the Moby project maintainers
+Docker Engine is an open-source project supported by the Moby project maintainers
 and community members. Docker doesn't provide support for Docker Engine.
 Docker provides support for Docker products, including Docker Desktop, which uses
 Docker Engine as one of its components.
 
-For information about the open source project, refer to the
+For information about the open-source project, refer to the
 [Moby project website](https://mobyproject.org/).
 
 ### Upgrade path
 
-Patch releases are always backward compatible with its major and minor version.
+Patch releases are always backward compatible with its major and minor versions.
 
 ### Licensing
 
@@ -133,11 +133,11 @@ license text.
 
 ## Reporting security issues
 
-If you discover a security issue, we request that you bring it to our attention immediately.
+If you discover a security issue, we request you immediately bring it to our attention.
 
 DO NOT file a public issue. Instead, submit your report privately to security@docker.com.
 
-Security reports are greatly appreciated, and Docker will publicly thank you for it.
+Security reports are greatly appreciated, and Docker will publicly thank you.
 
 ## Get started
 
